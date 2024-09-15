@@ -1,0 +1,13 @@
+name: module_test_template
+author: naptha
+version: 0.1.0
+description: A tool to test template part of a flow
+license: MIT
+
+outputs:
+    save: false
+    location: node
+
+implementation:
+    package:
+        entrypoint: run.py
